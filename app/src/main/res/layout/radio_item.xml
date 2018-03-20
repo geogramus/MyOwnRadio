@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <RelativeLayout
+            android:id="@+id/redioItemContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/itemStandartMarginPadding"
+            android:padding="@dimen/itemStandartMarginPadding"
+            android:background="@drawable/bg_item">
+
+            <ImageView
+                android:id="@+id/itemImage"
+                android:layout_width="@dimen/radioImageSize"
+                android:layout_height="@dimen/radioImageSize"
+                android:layout_centerVertical="true"
+                android:padding="@dimen/itemStandartMarginPadding"
+                android:src="@drawable/ic_item_image"
+                android:text="00:00"
+                android:textColor="@color/colorAccent"
+                android:background="@drawable/circle_background_buttons"/>
+
+            <TextView
+                android:id="@+id/textTimer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@+id/itemImage"
+                android:layout_toRightOf="@+id/itemImage"
+                android:padding="@dimen/itemStandartMarginPadding"
+                android:text="00:00"
+                android:textColor="@color/white_color" />
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/buttonHeight"
+                android:padding="@dimen/itemStandartMarginPadding"
+                android:background="@color/colorPrimary"
+                android:id="@+id/mainButton"
+                android:src="@drawable/ic_action_name"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true" />
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+</FrameLayout>

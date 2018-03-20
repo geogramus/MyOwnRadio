@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="buttonHeight">70dp</dimen>
+    <dimen name="itemStandartMarginPadding">10dp</dimen>
+    <dimen name="radioImageSize">70dp</dimen>
+    <dimen name="standartHight">50dp</dimen>
+    <dimen name="size20">20dp</dimen>
+</resources>

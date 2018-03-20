@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="geogram.radio.myownradio.ui.activityes.AddNewChanelActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/topText"
+        android:layout_margin="@dimen/itemStandartMarginPadding"
+        android:padding="@dimen/itemStandartMarginPadding"
+        android:textColor="@color/colorAccent"
+
+        android:text="@string/write_all_neccesary_information"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/topText"
+        android:id="@+id/fotoChoice">
+        <Spinner
+            android:id="@+id/chanelSpinner"
+            android:layout_width="match_parent"
+            android:minHeight="@dimen/standartHight"
+            android:layout_height="wrap_content"
+           android:layout_weight="1"
+            android:layout_margin="@dimen/itemStandartMarginPadding"
+            android:padding="@dimen/itemStandartMarginPadding" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:textColor="@color/colorAccent"
+            android:text="@string/load_n_file_or_nchoose_nicon"/>
+        <ImageView
+            android:id="@+id/loadImage"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_weight="2"
+            android:layout_gravity="center"
+            android:background="@drawable/ic_upload_file"
+            android:padding="@dimen/itemStandartMarginPadding"
+            android:layout_margin="@dimen/itemStandartMarginPadding"/>
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/photo_set"
+        android:layout_below="@+id/fotoChoice"
+        android:textSize="@dimen/itemStandartMarginPadding"
+        android:textColor="@color/deleteColor"
+       android:gravity="right"
+        android:paddingRight="@dimen/itemStandartMarginPadding"/>
+    <EditText
+        android:id="@+id/chanelName"
+        android:backgroundTint="@color/colorPrimary"
+        android:hint="@string/name_of_chanel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/photo_set"
+        android:layout_margin="@dimen/itemStandartMarginPadding"
+        android:padding="@dimen/itemStandartMarginPadding" />
+    <EditText
+        android:id="@+id/chanelUrl"
+        android:backgroundTint="@color/colorPrimary"
+        android:hint="@string/streaming_url"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/chanelName"
+        android:layout_margin="@dimen/itemStandartMarginPadding"
+        android:padding="@dimen/itemStandartMarginPadding" />
+
+    <Button
+        android:id="@+id/addButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/itemStandartMarginPadding"
+        android:padding="@dimen/itemStandartMarginPadding"
+        android:layout_below="@+id/chanelUrl"
+        android:background="@color/colorPrimary"
+        android:text="@string/add_new_chanel"
+        android:textColor="@color/white_color" />
+    </RelativeLayout>
+</ScrollView>

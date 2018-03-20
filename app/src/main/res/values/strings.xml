@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Your radio</string>
+    <string name="loading_data">Loading Data...</string>
+    <string name="loading_error">Loading Error</string>
+    <string name="string_pause">pause</string>
+    <string name="string_play">play</string>
+    <string name="strin_next">Next</string>
+    <string name="string_previous">previous</string>
+    <string name="add_station">Add new station</string>
+    <string name="name_of_chanel">Name of chanel</string>
+    <string name="streaming_url">Streaming URL</string>
+    <string name="add_new_chanel">Add new Chanel</string>
+    <string name="write_all_neccesary_information">Write all neccesary information about your radio chanel.</string>
+    <string name="confirm_remove">Are you sure?</string>
+    <string name="startplay">For you playing radiochanel: </string>
+    <string name="chanel_removed">Chanel removed</string>
+    <string name="error_chanel_removed">Error of chanel removing</string>
+    <string name="load_n_file_or_nchoose_nicon">Load  File or Choose Icon</string>
+    <string name="file_selected">File selected</string>
+    <string name="chell_all_fields">Check all fields</string>
+
+    <string-array name="pictures">
+        <item>R.drawable.ic_bycicle_driver</item>
+    </string-array>
+
+</resources>
